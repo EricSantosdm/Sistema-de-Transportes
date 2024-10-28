@@ -117,7 +117,7 @@
             <div class="collapse" id="form-elements">
               <ul class="nav flex-column sub-menu">
                 <li class="nav-item"><a class="nav-link" href="../forms/users.html">Usuários</a></li>
-                <li class="nav-item"><a class="nav-link" href="../forms/animais.html">Animais</a></li>
+                <li class="nav-item"><a class="nav-link" href="../forms/animais.html">Solicitar Viagem</a></li>
                 <li class="nav-item"><a class="nav-link" href="../forms/produtos.html">Produtos</a></li>
               </ul>
             </div>
@@ -148,53 +148,87 @@
             <div class="col-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Cadastros de Animais</h4>
+                  <h4 class="card-title">Solicitação de Viagem</h4>
                 
-                  <form class="forms-sample">
-                    <div class="form-group">
-                      <label for="exampleInputName1">Tutor</label>
-                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Tutor">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputName1">Apelido</label>
-                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Apelido">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail3">Especie</label>
-                      <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Especie">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputPeso4">Peso</label>
-                      <input type="number" class="form-control" id="exampleInputPeso4" placeholder="Peso">
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleSelectGender">Sexo</label>
-                        <select class="form-control" id="exampleSelectGender">
-                          <option>Macho</option>
-                          <option>Fêmea</option>
-                        </select>
-                      </div>
-                    <div class="form-group">
-                      <label>Foto do bichinho</label>
-                      <input type="file" name="img[]" class="file-upload-default">
-                      <div class="input-group col-xs-12">
-                        <input type="text" class="form-control file-upload-info" disabled placeholder="Foto do bichinho">
-                        <span class="input-group-append">
-                          <button class="file-upload-browse btn btn-primary" type="button">Enviar</button>
-                        </span>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputCity1">Endereço</label>
-                      <input type="text" class="form-control" id="exampleInputCity1" placeholder="Endereço">
-                    </div>
-                   
-                    <button type="submit" class="btn btn-primary mr-2">Enviar</button>
-                    <button class="btn btn-light">Cancelar</button>
-                  </form>
-                </div>
-              </div>
-            </div>
+<!-- Identificação do Requerente -->
+<div class="form-section">
+  <h4>Identificação do Requerente</h4>
+  <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" name="nome" required>
+  </div>
+  <div class="form-group">
+      <label for="matricula">Matrícula SIAPE:</label>
+      <input type="text" class="form-control" id="matricula" name="matricula" required>
+  </div>
+  <div class="form-group">
+      <label for="endereco">Endereço:</label>
+      <input type="text" class="form-control" id="endereco" name="endereco" required>
+  </div>
+  <div class="form-group">
+      <label for="cidade_estado">Cidade/Estado:</label>
+      <input type="text" class="form-control" id="cidade_estado" name="cidade_estado" required>
+  </div>
+  <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" class="form-control" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+      <label for="telefone">Telefone(s) com DDD:</label>
+      <input type="tel" class="form-control" id="telefone" name="telefone" required>
+  </div>
+</div>
+
+<!-- Dados da Viagem -->
+<div class="form-section">
+  <h4>Dados da Viagem</h4>
+  <div class="form-group">
+      <label for="destino">Destino:</label>
+      <input type="text" class="form-control" id="destino" name="destino" required>
+  </div>
+  <div class="form-group">
+      <label for="objetivo">Objetivo da Viagem:</label>
+      <input type="text" class="form-control" id="objetivo" name="objetivo" required>
+  </div>
+  <div class="form-group">
+      <label for="roteiro">Roteiro:</label>
+      <textarea class="form-control" id="roteiro" name="roteiro" rows="3" required></textarea>
+  </div>
+  <div class="form-group">
+      <label for="data_saida">Data de Saída:</label>
+      <input type="date" class="form-control" id="data_saida" name="data_saida" required>
+  </div>
+  <div class="form-group">
+      <label for="data_retorno">Data de Retorno:</label>
+      <input type="date" class="form-control" id="data_retorno" name="data_retorno" required>
+  </div>
+  <div class="form-group">
+      <label for="numero_participantes">Número de Participantes:</label>
+      <input type="number" class="form-control" id="numero_participantes" name="numero_participantes" required>
+  </div>
+  <div class="form-group">
+      <label for="necessita_diarias">Necessita de Diárias?</label>
+      <input type="text" class="form-control" id="necessita_diarias" name="necessita_diarias" required>
+  </div>
+  <div class="form-group">
+      <label for="horario_saida">Horário de Saída:</label>
+      <input type="time" class="form-control" id="horario_saida" name="horario_saida" required>
+  </div>
+  <div class="form-group">
+      <label for="horario_retorno">Horário de Retorno:</label>
+      <input type="time" class="form-control" id="horario_retorno" name="horario_retorno" required>
+  </div>
+  <div class="form-group">
+      <label for="observacoes">Observações:</label>
+      <textarea class="form-control" id="observacoes" name="observacoes" rows="2"></textarea>
+  </div>
+</div>
+
+<!-- Botão de envio -->
+<div class="text-center">
+  <input type="button" id="generate-pdf" class="btn btn-primary ml-2" value="Gerar PDF">
+</div>
+
             
             
             
@@ -207,8 +241,8 @@
         <!-- partial:../../partials/_footer.html -->
         <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Equipe de APS © 2022 ERIC SANTOS, ELIANA REGINA, MARCOS JHONATHS .</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Criado com Carinho para APS<i class="ti-heart text-danger ml-1"></i></span>
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">© 2022 ERIC SANTOS.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Criado com Carinho para WEB<i class="ti-heart text-danger ml-1"></i></span>
           </div>
         </footer>
         <!-- partial -->
