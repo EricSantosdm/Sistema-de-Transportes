@@ -1,28 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.0" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 90 70" style="enable-background:new 0 0 90 70;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:url(#path1097_1_);}
-	.st1{fill:#5EC5EC;}
-</style>
-<g id="g1123" transform="translate(-254.20716,113.15677)">
-	<g id="g1107">
-		
-			<linearGradient id="path1097_1_" gradientUnits="userSpaceOnUse" x1="-151.4199" y1="200.0706" x2="-140.6472" y2="211.099" gradientTransform="matrix(2.3225 0 0 -2.3225 633.2906 406.1881)">
-			<stop  offset="0" style="stop-color:#C4549A"/>
-			<stop  offset="1" style="stop-color:#5EC5EC"/>
-		</linearGradient>
-		<path id="path1097" class="st0" d="M306.7-84c-10.7-10.3-46.1-0.8-36.8,15.5c3.3,5.9,7.6,4.5,12.3,9c0.1,0.1,0.1,0.1,0.2,0.2
-			l0.2,0.2c4.6,4.6,3.3,9,9.2,12.2C308.3-38,317.2-73.5,306.7-84L306.7-84z"/>
-		
-			<ellipse id="ellipse1099" transform="matrix(0.9195 -0.393 0.393 0.9195 51.5337 121.9449)" class="st1" cx="323.6" cy="-64.9" rx="11.6" ry="8.6"/>
-		
-			<ellipse id="ellipse1101" transform="matrix(0.8657 -0.5005 0.5005 0.8657 85.6288 150.2016)" class="st1" cx="322.8" cy="-84.5" rx="11.6" ry="8.6"/>
-		
-			<ellipse id="ellipse1103" transform="matrix(0.521 -0.8536 0.8536 0.521 223.3816 198.1342)" class="st1" cx="288.2" cy="-100" rx="11.6" ry="8.6"/>
-		
-			<ellipse id="ellipse1105" transform="matrix(0.6182 -0.7861 0.7861 0.6182 195.521 205.0458)" class="st1" cx="308.8" cy="-98.7" rx="11.6" ry="8.6"/>
-	</g>
-</g>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="20mm" height="20mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2000 2000"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <font id="FontID0" horiz-adv-x="722" font-variant="normal" style="fill-rule:nonzero" font-weight="700">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial Negrito"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="S" horiz-adv-x="666" d="M34.999 232.001l141.001 14.0005c8.49855,-47.1669 25.5001,-81.6701 51.3321,-103.837 25.8365,-22.1626 60.6672,-33.1665 104.501,-33.1665 46.3348,0 81.3337,9.8353 104.833,29.5015 23.4994,19.6662 35.3354,42.6654 35.3354,69.002 0,16.9971 -5.00175,31.3295 -14.8326,43.3337 -9.8353,11.8316 -27.1688,22.1626 -51.8367,30.8294 -16.8333,6.0021 -55.1653,16.3331 -115.164,31.334 -77.1686,19.3342 -131.334,43.0018 -162.499,71.1665 -43.8339,39.5005 -65.669,87.6678 -65.669,144.502 0,36.4995 10.3355,70.8345 30.8338,102.664 20.6665,31.8341 50.3318,56.0019 89.1683,72.667 38.8322,16.6695 85.4989,24.9999 140.5,24.9999 89.4959,0 156.997,-19.8299 202.164,-59.6669 45.3344,-39.8325 69.002,-92.8333 71.3347,-159.33l-145.002 -5.00175c-6.16587,36.9997 -19.3298,63.5001 -39.5005,79.665 -20.1663,16.1694 -50.5,24.3359 -90.8326,24.3359 -41.665,0 -74.3313,-8.66675 -97.8307,-26.0002 -15.169,-11.1676 -22.8354,-26.0002 -22.8354,-44.6661 0,-17.0015 7.16622,-31.5022 21.5031,-43.5019 18.1656,-15.501 62.3315,-31.4977 132.498,-48.1673 70.1661,-16.4969 121.998,-33.8304 155.501,-51.5003 33.6666,-17.8292 59.9988,-41.997 79.0011,-72.8308 18.9978,-30.8338 28.4967,-68.8338 28.4967,-114 0,-41.0011 -11.3314,-79.5012 -34.1668,-115.332 -22.831,-35.8355 -54.9971,-62.4997 -96.6665,-79.8332 -41.665,-17.5017 -93.6655,-26.1684 -155.833,-26.1684 -90.5007,0 -159.998,20.8347 -208.498,62.6679 -48.4993,41.665 -77.3368,102.5 -86.8357,182.334z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";font-variant:normal;font-weight:bold;src:url("#FontID0") format(svg)}
+    .fil0 {fill:#373435}
+    .fnt0 {font-weight:bold;font-size:2259.21px;font-family:'Arial'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <text x="256.37" y="1809.32"  class="fil0 fnt0">S</text>
+ </g>
 </svg>
