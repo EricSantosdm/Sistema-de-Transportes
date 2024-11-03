@@ -2,38 +2,24 @@
 <html lang="pt-BR">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>SisPet</title>
-  <!-- plugins:css -->
+  <title>SGTU</title>
   <link rel="stylesheet" href="../../vendors/feather/feather.css">
   <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
   <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
-  <!-- endinject -->
-  <!-- Plugin css for this page -->
-  <!-- End plugin css for this page -->
-  <!-- inject:css -->
   <link rel="stylesheet" href="../../css/vertical-layout-light/style.css">
-  <!-- endinject -->
   <link rel="shortcut icon" href="../../images/favicon.png" />
 </head>
 
 <body>
   <div class="container-scroller">
-    <!-- partial:../../partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img src="../../images/logo.svg" class="mr-2" alt="logo"/></a>
-        <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo-mini.svg" alt="logo"/></a>
+        <a class="navbar-brand brand-logo mr-5" href="../../index.html"><img src="../../images/logo.svg" class="mr-2" alt="logo UFERSA"/></a>
+        <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo-mini.svg" alt="logo UFERSA"/></a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
-        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
-          <span class="icon-menu"></span>
-        </button>
-        <ul class="navbar-nav mr-lg-2">
-          
-        </ul>
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item dropdown">
             <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
@@ -43,61 +29,27 @@
             <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="notificationDropdown">
               <p class="mb-0 font-weight-normal float-left dropdown-header">Notificações</p>
               <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-success">
-                    <i class="ti-info-alt mx-0"></i>
-                  </div>
-                </div>
                 <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Pedidos Pendentes</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    14 pedidos
-                  </p>
+                  <h6 class="preview-subject font-weight-normal">Novas Solicitações</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">5 novas solicitações</p>
                 </div>
               </a>
               <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-warning">
-                    <i class="ti-settings mx-0"></i>
-                  </div>
-                </div>
                 <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Serviços</h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    12 serviços 
-                  </p>
-                </div>
-              </a>
-              <a class="dropdown-item preview-item">
-                <div class="preview-thumbnail">
-                  <div class="preview-icon bg-info">
-                    <i class="ti-user mx-0"></i>
-                  </div>
-                </div>
-                <div class="preview-item-content">
-                  <h6 class="preview-subject font-weight-normal">Usuários Registrados </h6>
-                  <p class="font-weight-light small-text mb-0 text-muted">
-                    13 recentes
-                  </p>
+                  <h6 class="preview-subject font-weight-normal">Aprovações Pendentes</h6>
+                  <p class="font-weight-light small-text mb-0 text-muted">3 aprovações</p>
                 </div>
               </a>
             </div>
           </li>
-         
-          
         </ul>
         <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
           <span class="icon-menu"></span>
         </button>
       </div>
     </nav>
-    <!-- partial -->
+
     <div class="container-fluid page-body-wrapper">
-      <!-- partial:../../partials/_settings-panel.html -->
-     
-     
-      <!-- partial -->
-      <!-- partial:../../partials/_sidebar.html -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
@@ -106,87 +58,60 @@
               <span class="menu-title">Principal</span>
             </a>
           </li>
-          
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+            <a class="nav-link" href="../../pages/forms/solicitar-viagem.html">
               <i class="icon-columns menu-icon"></i>
-              <span class="menu-title">Cadastros</span>
-              <i class="menu-arrow"></i>
+              <span class="menu-title">Solicitar Viagem</span>
             </a>
-            <div class="collapse" id="form-elements">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="../../pages/forms/users.html">Usuários</a></li>
-                <li class="nav-item"><a class="nav-link" href="../../pages/forms/animais.html">Animais</a></li>
-                <li class="nav-item"><a class="nav-link" href="../../pages/forms/produtos.html">Produtos</a></li>
-              </ul>
-            </div>
           </li>
-          
           <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
+            <a class="nav-link" href="../../pages/tables/lista-viagens.html">
               <i class="icon-grid-2 menu-icon"></i>
-              <span class="menu-title">Listas</span>
-              <i class="menu-arrow"></i>
+              <span class="menu-title">Listar Viagens</span>
             </a>
-            <div class="collapse" id="tables">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../../pages/tables/basic-table.html">Tabela de serviços</a></li>
-              </ul>
-            </div>
-          </li>      
-          
-      
+          </li>
         </ul>
       </nav>
-      <!-- partial -->
+
       <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
             <div class="col-lg-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Tabela de serviços</h4>
-                 
+                  <h4 class="card-title">Lista de Viagens Solicitadas</h4>
                   <div class="table-responsive">
                     <table class="table">
                       <thead>
                         <tr>
-                          <th>Cliente</th>
-                          <th>Telefone</th>
-                          <th>Horário</th>
+                          <th>Solicitante</th>
+                          <th>Destino</th>
+                          <th>Data de Partida</th>
+                          <th>Data de Retorno</th>
                           <th>Status</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td>Luiz</td>
-                          <td>(53)275531</td>
-                          <td>14:20</td>
-                          <td><label class="badge badge-danger">Pendente</label></td>
+                          <td>Ana Silva</td>
+                          <td>Recife</td>
+                          <td>15/12/2023</td>
+                          <td>20/12/2023</td>
+                          <td><label class="badge badge-warning">Aguardando Aprovação</label></td>
+                        </tr>
+                        <tr>
+                          <td>Pedro Gomes</td>
+                          <td>São Paulo</td>
+                          <td>10/11/2023</td>
+                          <td>15/11/2023</td>
+                          <td><label class="badge badge-danger">Rejeitado</label></td>
                         </tr>
                         <tr>
                           <td>Maria Clara</td>
-                          <td>(53)275532</td>
-                          <td>15:30</td>
-                          <td><label class="badge badge-warning">Agendado</label></td>
-                        </tr>
-                        <tr>
-                          <td>Johnatas</td>
-                          <td>(53)275533</td>
-                          <td>13:20</td>
-                          <td><label class="badge badge-success">Realizado</label></td>
-                        </tr>
-                        <tr>
-                          <td>Pedro</td>
-                          <td>(53)275534</td>
-                          <td>10:30</td>
-                          <td><label class="badge badge-success">Realizado</label></td>
-                        </tr>
-                        <tr>
-                          <td>David</td>
-                          <td>(53)275535</td>
-                          <td>16:30</td>
-                          <td><label class="badge badge-warning">Agendado</label></td>
+                          <td>Fortaleza</td>
+                          <td>01/11/2023</td>
+                          <td>05/11/2023</td>
+                          <td><label class="badge badge-success">Aprovado</label></td>
                         </tr>
                       </tbody>
                     </table>
@@ -194,207 +119,25 @@
                 </div>
               </div>
             </div>
-          
-            <div class="col-lg-12 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <h4 class="card-title">Produtividade</h4>
-                  
-                  <div class="table-responsive">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th>
-                            Usuários
-                          </th>
-                          <th>
-                            Nome
-                          </th>
-                          <th>
-                            Produção
-                          </th>
-                          <th>
-                            Vendas feitas
-                          </th>
-                          <th>
-                            Data de Contrato
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face1.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Eric Santos
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            R$ 177.99
-                          </td>
-                          <td>
-                            03/2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face2.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Julia
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            R$245.30
-                          </td>
-                          <td>
-                            06/2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face3.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Marcos
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            R$338.00
-                          </td>
-                          <td>
-                            05/2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face4.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Pedro
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-primary" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            R$ 77.99
-                          </td>
-                          <td>
-                            08/2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face5.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Eduardo
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-danger" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            R$ 160.25
-                          </td>
-                          <td>
-                           09/2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face6.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Julio
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            R$ 123.21
-                          </td>
-                          <td>
-                            09/2015
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="py-1">
-                            <img src="../../images/faces/face7.jpg" alt="image"/>
-                          </td>
-                          <td>
-                            Henrique
-                          </td>
-                          <td>
-                            <div class="progress">
-                              <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                          </td>
-                          <td>
-                            R$ 150.00
-                          </td>
-                          <td>
-                            11/2015
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-           
-           
           </div>
         </div>
-        <!-- content-wrapper ends -->
-        <!-- partial:../../partials/_footer.html -->
+
         <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">© 2022 ERIC SANTOS.</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Criado com Carinho para WEB<i class="ti-heart text-danger ml-1"></i></span>
+            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">© 2023 UFERSA.</span>
+            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Sistema de Gerenciamento de Viagens<i class="ti-heart text-danger ml-1"></i></span>
           </div>
         </footer>
-        <!-- partial -->
       </div>
-      <!-- main-panel ends -->
     </div>
-    <!-- page-body-wrapper ends -->
   </div>
-  <!-- container-scroller -->
-  <!-- plugins:js -->
+  
   <script src="../../vendors/js/vendor.bundle.base.js"></script>
-  <!-- endinject -->
-  <!-- Plugin js for this page -->
-  <!-- End plugin js for this page -->
-  <!-- inject:js -->
   <script src="../../js/off-canvas.js"></script>
   <script src="../../js/hoverable-collapse.js"></script>
   <script src="../../js/template.js"></script>
   <script src="../../js/settings.js"></script>
   <script src="../../js/todolist.js"></script>
-  <!-- endinject -->
-  <!-- Custom js for this page-->
-  <!-- End custom js for this page-->
 </body>
 
 </html>
